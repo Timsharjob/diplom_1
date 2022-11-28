@@ -19,7 +19,7 @@ public class IngredientTest {
         this.price = price;
     }
 
-    @Parameterized.Parameters(name = "Тестовые данные: {0}, {1}, {2}")
+    @Parameterized.Parameters(name = "Test data: {0}, {1}, {2}")
     public static Object[][] getIngredientData() {
         return new Object[][]{
                 {IngredientType.FILLING, "CosmoMeat", 50f},
